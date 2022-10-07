@@ -8,36 +8,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles.css">
         <title>RocketLinks</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" rel="stylesheet">">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="dark-purple">
+        <main>
+            <div class="container">
+                
+                <img class="avatar" src="https://github.com/stairwayy.png" alt="Foto perfil">
+                <h1>Yasmin Guimarães</h1>
+                <p>@stairway.a</p>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/stairway.a/" target="_blank"><img class="logo" src="./files/instagram.png" alt="">Instagram </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100005524279341" target="_blank"><img class="logo" src="./files/facebook2.png" alt="">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Stairwayy" target="_blank"><img class="logo" src="./files/github.png" alt="">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://app.rocketseat.com.br/me/yasmin-guimaraes-01974" target="_blank"><img class="logo" src="./files/rocket.png" alt="">Rocketseat</a>
+                    </li>
+                </ul>
+                <footer>Feito com 💜 pela <a href="https://github.com/Stairwayy" target="_blank">Stairway.a</a></footer>
+            </div>
 
-        <div class="container">
-        
-        <img class="avatar" src="https://github.com/stairwayy.png" alt="Foto perfil">
-        <h1>Yasmin Guimarães</h1>
-        <p>@stairway.a</p>
+            <div class="button">
+                <button id="switch-theme-button" onclick="switchTheme()"><img src="./files/picwish.png" alt=""></button>
+            </div>
 
-        <ul>
-            <li>
-    
-                <a href="https://www.instagram.com/stairway.a/" target="_blank"><img class="logo" src="./files/instagram.png" alt="">Instagram </a>
-
-            </li>
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100005524279341" target="_blank"><img class="logo" src="./files/facebook2.png" alt="">Facebook</a>
-            </li>
-            <li>
-                <a href="https://github.com/Stairwayy" target="_blank"><img class="logo" src="./files/github.png" alt="">Github</a>
-            </li>
-            <li>
-                <a href="https://app.rocketseat.com.br/me/yasmin-guimaraes-01974" target="_blank"><img class="logo" src="./files/rocket.png" alt="">Rocketseat</a>
-            </li>
-
-        </ul>
-
-        <footer>Feito com 💜 pela <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a></footer>
-
-    </div>
+            <script>
+                function switchTheme() {
+                    document.body.classList.toggle('dark-blue');
+                    document.body.classList.toggle('dark-purple');
+            }
+            </script>
+        </main>
     </body>
 </html>
